@@ -2,7 +2,6 @@ import nike from "./assests/nike.png";
 import "./App.css";
 
 function App() {
-
   //check user readiness
   const canMakePaymentCache = 'canMakePaymentCache';
 
@@ -43,10 +42,10 @@ function App() {
       {
         supportedMethods: ['https://tez.google.com/pay'],
         data: {
-          pa: 'akshaykashid@ybl', //BCR2DN6TZ76K7GKI
+          pa: 'vicky.ravi26-2@okicic', //BCR2DN6TZ76K7GKI
           pn: 'demo',
           tr: '15876ABCD',  // Your custom transaction reference ID
-          url: 'https://nifty-nightingale-bdf053.netlify.app',
+          url: 'url',
           mc: '5192', //Your merchant category code
           tn: 'Purchase in Merchant'
 
